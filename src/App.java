@@ -8,6 +8,12 @@ public class App {
        int[] arregloOrdenadoDesc = bubble.sortByBubbleDesc(arreglo);
        System.out.print("\n Descendente: ");
        bubble.printArreglo(arregloOrdenadoDesc);
+       //ORDENAR ALFABETICAMENTE
+       String cadena = "este es un ejemplo de texto para Ordenar";
+       String [] palabras = cadena.split(" ");
+       String [] palabrasOrdenadas = bubble.sortByBubblePalabras(palabras);
+       System.out.print("\n Palabras Ordenadas: ");
+       bubble.printArregloPalabras(palabrasOrdenadas);
     }
 } 
                                                                                                                         
